@@ -1,0 +1,49 @@
+name: cpom
+description: CPOM
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  http: ^1.1.0
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  image_picker: ^1.0.4
+  provider: ^6.1.2
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/app_icon.png
+    - assets/images/zhengzhou_logo.png
+
+# App icon configuration
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon/app_icon.png
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFF8F0"
+  adaptive_icon_foreground: assets/icon/app_icon_foreground.png
+  adaptive_icon_monochrome: assets/icon/app_icon_foreground.png
+  web:
+    generate: true
+    image_path: assets/icon/app_icon.png
+    favicon_path: assets/icon/app_icon.png
+    background_color: "#FFF8F0"
+    theme_color: "#0B5C65"

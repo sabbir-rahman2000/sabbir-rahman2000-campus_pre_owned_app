@@ -1,0 +1,3 @@
+@echo off
+echo Starting Campus Pre-owned Flutter App...
+flutter run

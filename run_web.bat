@@ -1,0 +1,3 @@
+@echo off
+echo Starting Campus Pre-owned Flutter Web App...
+flutter run -d chrome
